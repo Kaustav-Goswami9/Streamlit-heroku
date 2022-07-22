@@ -5,9 +5,9 @@ st.write('''
 
 This app finds the max of the 3 number entered by the user''')
 
-x1 = int(st.number_input("First Number"))
-x2 = int(st.number_input("Second Number"))
-x3 = int(st.number_input("Third Number"))
+x1 = float(st.number_input("First Number"))
+x2 = float(st.number_input("Second Number"))
+x3 = float(st.number_input("Third Number"))
 
 st.subheader('Answer')
 st.write('Max number =', max(x1,x2,x3))
